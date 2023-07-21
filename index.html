@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>NewsToday - News Around You</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="utils.css" />
+        <link rel="stylesheet" href="responsive.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="header">
+            <nav class="navbar container">
+                <div class="nav-left" onclick="reload()">
+                    <h1>NewsToday</h1>
+                </div>
+                <div class="nav-middle nav-links">
+                    <ul id="menu">
+                        <li class="hover-link nav-item" id="ipl" onclick="onNavItemClick('ipl')">IPL</li>
+                        <li class="hover-link nav-item" id="finance" onclick="onNavItemClick('finance')">Finance</li>
+                        <li class="hover-link nav-item" id="politics" onclick="onNavItemClick('politics')">Politics</li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <input class="textbox1" type="text" name="" id="news-input" placeholder="e.g science" />
+                    <button type="submit" class="btn" id="search-button">Search</button>
+                </div>
+            </nav>
+        </div>
+        <div class="main-container container flex" id="cards-container"></div>
+        <template id="template-news-card">
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://fakeimg.pl/350x251" alt="news-img" id="news-img" />
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">This is the Title</h3>
+                    <h6 id="source">Source : BBC News 25/05/2023 4:00pm</h6>
+                    <p id="news-description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error obcaecati modi suscipit optio illum velit
+                        ut nihil recusandae incidunt consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+                        iusto.
+                    </p>
+                </div>
+            </div>
+        </template>
+        <div class="footer">
+            <div class="footer-main flex">&copy; Copyrights by Nirav Khant.<br</div>
+        </div>
+    </body>
+</html>

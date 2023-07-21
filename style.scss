@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap');
+
+$borderred: 2px solid red;
+$borderblue: 2px solid blue;
+html{
+.header{
+    // border: 2px solid red;
+    background-color: #493843;
+    max-width: 100vw;
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            justify-content: space-between;
+            align-items: center;
+            // border: $borderblue;
+            li{
+                padding: 1rem;
+                cursor: pointer;
+            }
+        }
+        h1{
+            font-family: 'Poppins', sans-serif;
+            // border: $borderblue;
+        }
+    }
+}
+}
+.navbar{
+    height: 8rem;
+    .nav-left{
+        margin-left: 1rem;
+        cursor: pointer;
+    }
+    .nav-middle{
+        .nav-item.active{
+            color: crimson;
+        }
+    }
+    .nav-right{
+        margin-right: 1rem;
+    }
+}
+
+.main-container{
+        padding-block: .2rem;
+        margin-top: 5rem;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+        align-items: start;
+    .card{
+        // border: $borderblue;
+        width: 35rem;
+        min-height: 40rem;
+        box-shadow: 0 0 4px #d4ecff;
+        border-radius: 1rem;
+        cursor: pointer;
+        background-color: #fff;
+        overflow: hidden;
+        .card-header{
+            img{
+                width: 100%; 
+                height: 18rem;
+                object-fit: cover;
+            }
+
+        }
+        .card-content{
+            padding: 1rem;
+            h6{
+                margin-top: 1rem;
+            }
+            p{
+                margin-top: 1rem;
+            }
+        }
+      
+   
+    }
+
+
+
+}
+.footer{
+    .footer-main{
+        justify-content: center;
+        height: 5rem;
+        background-color: #493843;
+        color: white;
+        font-weight: 500;
+        font-size: 1.5rem;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+  .card:hover{
+            box-shadow: 1px 1px 8px #d4ecff;
+            background-color: #f9fdff;
+            transform: translateY(-2px);
+        }
