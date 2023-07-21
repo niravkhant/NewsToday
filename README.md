@@ -1,7 +1,7 @@
 
 # NewsToday by Nirav
  News Website with API from newsapi.org
- #Language used: HTML, SCSS, Javascript
+ # Language used: HTML, SCSS, Javascript
  # Screenshots:
 ![Screenshot (203)](https://github.com/niravkhant/NewsToday-by-Nirav/assets/29600493/73323d15-9da2-462a-97cd-d883c8ae9f84)
 
